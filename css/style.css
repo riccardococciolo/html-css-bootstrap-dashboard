@@ -32,7 +32,6 @@
 
     .logo-lg {
         display: block !important;
-        
     }
 
     .logo-sm {
@@ -87,3 +86,36 @@
     text-align: center;
 }
 
+/* main */
+
+/* table */
+.margin-end {
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse
+}
+
+.circle {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+}
+
+.action-square {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid darkgrey;
+    border-radius: 3px;
+    font-size: 13px;
+}
