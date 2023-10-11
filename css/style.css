@@ -3,6 +3,7 @@
     --secondary-color: rgb(20 42 64);
     --bar-color: rgb(5 30 52);
     --search-color: rgb(229 229 229);
+    --navbar-height: 66px;
 }
 
 /* wrapper */
@@ -39,6 +40,30 @@
 }
 
 /* main-block */
+.main-block {
+    display: flex;
+}
 
+/* sidebar */
+.sidebar {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: var(--bar-color);
+    width: 60px;
+    height: calc(100vh - (var(--navbar-height)));
+}
+
+.sb-icon-name {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .sb-icon-name {
+        display: block !important;
+    }
+
+    .sidebar {
+        width: 150px;
+    }
+}
 
 
