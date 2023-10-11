@@ -4,6 +4,7 @@
     --bar-color: rgb(5 30 52);
     --search-color: rgb(229 229 229);
     --navbar-height: 66px;
+    --badge-color: rgb(22 91 186);
 }
 
 /* wrapper */
@@ -46,6 +47,7 @@
 
 /* sidebar */
 .sidebar {
+    flex-shrink: 1;
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--bar-color);
     width: 60px;
@@ -66,4 +68,22 @@
     }
 }
 
+/* content-block */
+.content-block {
+    flex-grow: 1;
+    height: calc(100vh - (var(--navbar-height)));
+    overflow-y: auto;
+}
+
+/* header */
+.badge-color {
+    background-color: var(--badge-color);
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
 
