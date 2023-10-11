@@ -1,0 +1,44 @@
+:root {
+    --primary-color: rgb(27 114 232);
+    --secondary-color: rgb(20 42 64);
+    --bar-color: rgb(5 30 52);
+    --search-color: rgb(229 229 229);
+}
+
+/* wrapper */
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+
+/* navbar */
+.logo {
+    height: 40px;
+}
+
+.search-color {
+    height: 40px;
+    background-color: var(--search-color);
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-nav li {
+        display: block !important;
+    }
+
+    .logo-lg {
+        display: block !important;
+        
+    }
+
+    .logo-sm {
+        display: none;
+    }
+}
+
+/* main-block */
+
+
+
